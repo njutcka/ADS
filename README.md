@@ -24,5 +24,7 @@ docker-compose up --build
 Выполнить команды для записи данных из fixtures
 
 docker-compose exec app python3 manage.py loaddata users.json
+
 docker-compose exec app python3 manage.py loaddata ad.json
+
 docker-compose exec app python3 manage.py loaddata comments.json
